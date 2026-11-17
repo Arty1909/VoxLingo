@@ -104,6 +104,7 @@ The PHP self-test uses fake transports instead of calling a paid API. Flutter's 
 | `lib/` | Flutter screens, client logic, styling, and local persistence. |
 | `backend/` | PHP API and Apache routing. |
 | `web/` | Web shell and SQLite/Drift worker assets. |
+| `web/drift_worker.js` | Dart-generated JavaScript required by the web SQLite worker; it is marked as generated in `.gitattributes`. |
 | `assets/branding/` | VoxLingo branding. |
 | `tool/build_hostinger.ps1` | Web and backend deployment package builder. |
 | `keys.env.example` | Configuration template with no live credentials. |
