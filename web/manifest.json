@@ -1,0 +1,35 @@
+{
+    "name": "VoxLingo",
+    "short_name": "VoxLingo",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F5F7FB",
+    "theme_color": "#5F57F5",
+    "description": "VoxLingo — voice and text translator.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-round-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-round-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

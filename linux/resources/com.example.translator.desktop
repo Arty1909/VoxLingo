@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=VoxLingo
+Comment=Voice and text translator
+Exec=voxlingo
+Icon=com.example.translator
+Terminal=false
+Categories=Utility;Education;
+StartupWMClass=com.example.translator

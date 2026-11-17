@@ -1,0 +1,6 @@
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+RewriteEngine On
+RewriteBase /projects/VoxLingo/backend/
+RewriteRule ^translation/?$ index.php [L]
+RewriteRule ^services/(?:stt/transcribe|tts/synthesize)/?$ index.php [L]
